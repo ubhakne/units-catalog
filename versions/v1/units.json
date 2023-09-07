@@ -1,0 +1,28 @@
+[
+    {
+        "externalId": "temperature_C",
+        "name": "CDF official name of the unit",
+        "description": "CDF official long name for the unit",
+        "aliasNames": [
+            "aliasC"
+        ],
+        "quantity": "Temperature",
+        "conversion": {
+            "multiplier": 1,
+            "shift": -273.15
+        }
+    },
+    {
+        "externalId": "temperature_F",
+        "name": "CDF official name of the unit",
+        "description": "CDF official long name for the unit",
+        "aliasNames": [
+            "aliasF"
+        ],
+        "quantity": "Temperature",
+        "conversion": {
+            "multiplier": 1,
+            "shift": -273.15
+        }
+    }
+]
