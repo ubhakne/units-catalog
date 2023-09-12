@@ -1,6 +1,6 @@
 [
     {
-        "externalId": "Temperature_C",
+        "externalId": "Temperature:degC",
         "name": "°C",
         "longName": "degrees Celsius",
         "aliasNames": [
@@ -55,7 +55,7 @@
         "qudtReference": "http://qudt.org/vocab/unit/DEG_C"
     },
     {
-        "externalId": "Temperature_F",
+        "externalId": "Temperature:degF",
         "name": "°F",
         "longName": "degrees Fahrenheit",
         "aliasNames": [
@@ -86,7 +86,7 @@
         "qudtReference": "http://qudt.org/vocab/unit/DEG_F"
     },
     {
-        "externalId": "Temperature_K",
+        "externalId": "Temperature:K",
         "name": "K",
         "longName": "kelvin",
         "aliasNames": [
@@ -126,7 +126,7 @@
         "qudtReference": "http://qudt.org/vocab/unit/K"
     },
     {
-        "externalId": "Temperature_R",
+        "externalId": "Temperature:degR",
         "name": "°R",
         "longName": "degrees Rankine",
         "aliasNames": [
@@ -156,5 +156,21 @@
         },
         "source": "APIRP661",
         "qudtReference": "http://qudt.org/vocab/unit/DEG_R"
+    },
+    {
+        "externalId": "Temperature_per_Length:K/m",
+        "name": "K/m",
+        "longName": "kelvin per meter",
+        "aliasNames": [
+            "K/m",
+            "kelvin per meter"
+        ],
+        "quantity": "Temperature per Length",
+        "conversion": {
+            "multiplier": 1.0,
+            "shift": 0.0
+        },
+        "source": "APIRP661",
+        "qudtReference": null
     }
 ]

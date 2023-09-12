@@ -1,11 +1,14 @@
 {
     "SI": {
-        "Temperature": "Temperature_K"
+        "Temperature": "Temperature:K",
+        "Temperature_per_Length": "Temperature_per_Length:K/m"
     },
     "SI (Enginnering)": {
-        "Temperature": "Temperature_C"
+        "Temperature": "Temperature:degC",
+        "Temperature_per_Length": "Temperature_per_Length:degC/m"
     },
     "Imperial": {
-        "Temperature": "Temperature_F"
+        "Temperature": "Temperature:F",
+        "Temperature_per_Length": "Temperature_per_Length:F/ft"
     }
 }
