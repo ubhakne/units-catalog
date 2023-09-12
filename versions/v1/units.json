@@ -1,10 +1,11 @@
 [
     {
-        "externalId": "temperature_C",
-        "name": "CDF official name of the unit",
-        "description": "CDF official long name for the unit",
+        "externalId": "Temperature_C",
+        "name": "°C",
+        "longName": "Celsius",
         "aliasNames": [
-            "aliasC"
+            "DegC",
+            "C"
         ],
         "quantity": "Temperature",
         "conversion": {
@@ -13,16 +14,16 @@
         }
     },
     {
-        "externalId": "temperature_F",
-        "name": "CDF official name of the unit",
-        "description": "CDF official long name for the unit",
+        "externalId": "Temperature_F",
+        "name": "°F",
+        "longName": "Fahrenheit",
         "aliasNames": [
-            "aliasF"
+            "DegF"
         ],
         "quantity": "Temperature",
         "conversion": {
-            "multiplier": 1,
-            "shift": -273.15
+            "multiplier": 0.5555555555555556,
+            "shift": -459.67
         }
     }
 ]
