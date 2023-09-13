@@ -1,14 +1,23 @@
 [
     {
+        "name": "default",
+        "quantities": [
+            {
+                "name": "Temperature",
+                "unitExternalId": "temperature:DEG_C"
+            },
+            {
+                "name": "Temperature Gradient",
+                "unitExternalId": "temperatureGradient:K-PER-M"
+            }
+        ]
+    },
+    {
         "name": "SI",
         "quantities": [
             {
                 "name": "Temperature",
                 "unitExternalId": "temperature:K"
-            },
-            {
-                "name": "Temperature per Length",
-                "unitExternalId": "temperaturePerLength:K/m"
             }
         ]
     },
@@ -17,11 +26,7 @@
         "quantities": [
             {
                 "name": "Temperature",
-                "unitExternalId": "temperature:degC"
-            },
-            {
-                "name": "Temperature per Length",
-                "unitExternalId": "temperaturePerLength:degC/m"
+                "unitExternalId": "temperature:DEG_C"
             }
         ]
     },
@@ -30,11 +35,7 @@
         "quantities": [
             {
                 "name": "Temperature",
-                "unitExternalId": "temperature:F"
-            },
-            {
-                "name": "Temperature per Length",
-                "unitExternalId": "temperaturePerLength:F/ft"
+                "unitExternalId": "temperature:DEG_F"
             }
         ]
     }
