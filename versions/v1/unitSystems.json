@@ -1,0 +1,41 @@
+[
+    {
+        "name": "SI",
+        "quantities": [
+            {
+                "name": "Temperature",
+                "unitExternalId": "temperature:K"
+            },
+            {
+                "name": "Temperature per Length",
+                "unitExternalId": "temperaturePerLength:K/m"
+            }
+        ]
+    },
+    {
+        "name": "SI (Engineering)",
+        "quantities": [
+            {
+                "name": "Temperature",
+                "unitExternalId": "temperature:degC"
+            },
+            {
+                "name": "Temperature per Length",
+                "unitExternalId": "temperaturePerLength:degC/m"
+            }
+        ]
+    },
+    {
+        "name": "Imperial",
+        "quantities": [
+            {
+                "name": "Temperature",
+                "unitExternalId": "temperature:F"
+            },
+            {
+                "name": "Temperature per Length",
+                "unitExternalId": "temperaturePerLength:F/ft"
+            }
+        ]
+    }
+]
