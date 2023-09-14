@@ -23,7 +23,7 @@ Each item in the `units.json` has the following structure:
         "offset": "float"
     },
     "source": "string",
-    "qudtReference": "URL"
+    "sourceReference": "URL"
 }
 ```
 
@@ -34,7 +34,7 @@ Each item in the `units.json` has the following structure:
 - `quantity`: Specifies the physical quantity the unit measures (e.g., `Temperature`).
 - `conversion`: An object containing **multiplier** and **offset** values for converting between units.
 - `source`: The primary source of the unit (e.g., `qudt.org`).
-- `qudtReference`: A URL reference to the unit definition on QUDT, if available.
+- `sourceReference`: A URL reference to the unit definition on an external source, if available.
 
 ### unitSystems.json
 
@@ -64,6 +64,7 @@ To ensure the integrity of the catalog, the following tests are conducted:
 3. **Reference Validation**: There should be no references to non-existent unit `externalIds` in `unitSystems.json`.
 4. **Default Quantities**: All quantities must be present in the `unitSystems.json` for the default quantity.
 5. **Consistent References**: All quantity references in `unitSystems.json` must exist in `units.json`.
+6. ** Unique aliases**: All pairs of (`alias` and `quantity`) must be unique, for all **aliases** in `aliasNames`.
 
 ## Contribution
 
