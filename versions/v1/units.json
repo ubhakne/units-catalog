@@ -80,7 +80,7 @@
         "quantity": "Temperature",
         "conversion": {
             "multiplier": 0.5555555555555556,
-            "offset": 459.669607
+            "offset": 459.67
         },
         "source": "qudt.org",
         "sourceReference": "http://qudt.org/vocab/unit/DEG_F"
