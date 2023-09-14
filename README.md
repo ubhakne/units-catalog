@@ -64,7 +64,7 @@ To ensure the integrity of the catalog, the following tests are conducted:
 3. **Reference Validation**: There should be no references to non-existent unit `externalIds` in `unitSystems.json`.
 4. **Default Quantities**: All quantities must be present in the `unitSystems.json` for the default quantity.
 5. **Consistent References**: All quantity references in `unitSystems.json` must exist in `units.json`.
-6. ** Unique aliases**: All pairs of (`alias` and `quantity`) must be unique, for all **aliases** in `aliasNames`.
+6. **Unique aliases**: All pairs of (`alias` and `quantity`) must be unique, for all **aliases** in `aliasNames`.
 
 ## Contribution
 
