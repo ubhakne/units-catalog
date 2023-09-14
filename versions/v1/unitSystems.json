@@ -1,0 +1,42 @@
+[
+    {
+        "name": "default",
+        "quantities": [
+            {
+                "name": "Temperature",
+                "unitExternalId": "temperature:deg_c"
+            },
+            {
+                "name": "Temperature Gradient",
+                "unitExternalId": "temperature_gradient:k-per-m"
+            }
+        ]
+    },
+    {
+        "name": "SI",
+        "quantities": [
+            {
+                "name": "Temperature",
+                "unitExternalId": "temperature:k"
+            }
+        ]
+    },
+    {
+        "name": "SI (Engineering)",
+        "quantities": [
+            {
+                "name": "Temperature",
+                "unitExternalId": "temperature:deg_c"
+            }
+        ]
+    },
+    {
+        "name": "Imperial",
+        "quantities": [
+            {
+                "name": "Temperature",
+                "unitExternalId": "temperature:deg_f"
+            }
+        ]
+    }
+]
