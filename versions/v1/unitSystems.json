@@ -4,11 +4,11 @@
         "quantities": [
             {
                 "name": "Temperature",
-                "unitExternalId": "temperature:DEG_C"
+                "unitExternalId": "temperature:deg_c"
             },
             {
                 "name": "Temperature Gradient",
-                "unitExternalId": "temperatureGradient:K-PER-M"
+                "unitExternalId": "temperature_gradient:k-per-m"
             }
         ]
     },
@@ -17,7 +17,7 @@
         "quantities": [
             {
                 "name": "Temperature",
-                "unitExternalId": "temperature:K"
+                "unitExternalId": "temperature:k"
             }
         ]
     },
@@ -26,7 +26,7 @@
         "quantities": [
             {
                 "name": "Temperature",
-                "unitExternalId": "temperature:DEG_C"
+                "unitExternalId": "temperature:deg_c"
             }
         ]
     },
@@ -35,7 +35,7 @@
         "quantities": [
             {
                 "name": "Temperature",
-                "unitExternalId": "temperature:DEG_F"
+                "unitExternalId": "temperature:deg_f"
             }
         ]
     }

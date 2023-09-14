@@ -1,6 +1,6 @@
 [
     {
-        "externalId": "temperature:DEG_C",
+        "externalId": "temperature:deg_c",
         "name": "°C",
         "longName": "degree Celsius",
         "aliasNames": [
@@ -55,7 +55,7 @@
         "qudtReference": "http://qudt.org/vocab/unit/DEG_C"
     },
     {
-        "externalId": "temperature:DEG_F",
+        "externalId": "temperature:deg_f",
         "name": "°F",
         "longName": "degree Fahrenheit",
         "aliasNames": [
@@ -86,7 +86,7 @@
         "qudtReference": "http://qudt.org/vocab/unit/DEG_F"
     },
     {
-        "externalId": "temperature:K",
+        "externalId": "temperature:k",
         "name": "K",
         "longName": "kelvin",
         "aliasNames": [
@@ -126,7 +126,7 @@
         "qudtReference": "http://qudt.org/vocab/unit/K"
     },
     {
-        "externalId": "temperature:DEG_R",
+        "externalId": "temperature:deg_r",
         "name": "°R",
         "longName": "degree Rankine",
         "aliasNames": [
@@ -158,7 +158,7 @@
         "qudtReference": "http://qudt.org/vocab/unit/DEG_R"
     },
     {
-        "externalId": "temperatureGradient:K-PER-M",
+        "externalId": "temperature_gradient:k-per-m",
         "name": "K/m",
         "longName": "Kelvins per metre",
         "aliasNames": [
