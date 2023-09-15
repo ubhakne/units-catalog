@@ -172,5 +172,1476 @@
         },
         "source": "qudt.org",
         "sourceReference": "http://qudt.org/vocab/unit/K-PER-M"
+    },
+    {
+        "externalId": "energy:megaw-hr",
+        "name": "MW\u22c5hr",
+        "longName": "Megawatt Hour",
+        "aliasNames": [
+            "MW\u22c5hr",
+            "Megawatt Hour"
+        ],
+        "quantity": "Energy",
+        "conversion": {
+            "multiplier": 3600000000.0,
+            "offset": 0.0
+        },
+        "source": "qudt.org",
+        "sourceReference": "http://qudt.org/vocab/unit/MegaW-HR"
+    },
+    {
+        "externalId": "energy:megaev",
+        "name": "MeV",
+        "longName": "Mega Electron Volt",
+        "aliasNames": [
+            "MeV",
+            "Mega Electron Volt"
+        ],
+        "quantity": "Energy",
+        "conversion": {
+            "multiplier": 1.602176634e-13,
+            "offset": 0.0
+        },
+        "source": "qudt.org",
+        "sourceReference": "http://qudt.org/vocab/unit/MegaEV"
+    },
+    {
+        "externalId": "energy:millij",
+        "name": "mJ",
+        "longName": "Millijoule",
+        "aliasNames": [
+            "mJ",
+            "Millijoule"
+        ],
+        "quantity": "Energy",
+        "conversion": {
+            "multiplier": 0.001,
+            "offset": 0.0
+        },
+        "source": "qudt.org",
+        "sourceReference": "http://qudt.org/vocab/unit/MilliJ"
+    },
+    {
+        "externalId": "energy:teraj",
+        "name": "TJ",
+        "longName": "Terajoule",
+        "aliasNames": [
+            "TJ",
+            "Terajoule"
+        ],
+        "quantity": "Energy",
+        "conversion": {
+            "multiplier": 1000000000000.0,
+            "offset": 0.0
+        },
+        "source": "qudt.org",
+        "sourceReference": "http://qudt.org/vocab/unit/TeraJ"
+    },
+    {
+        "externalId": "energy:ev",
+        "name": "eV",
+        "longName": "Electron Volt",
+        "aliasNames": [
+            "eV",
+            "Electron Volt"
+        ],
+        "quantity": "Energy",
+        "conversion": {
+            "multiplier": 1.602176634e-19,
+            "offset": 0.0
+        },
+        "source": "qudt.org",
+        "sourceReference": "http://qudt.org/vocab/unit/EV"
+    },
+    {
+        "externalId": "energy:megatoe",
+        "name": "megatoe",
+        "longName": "Megaton of Oil Equivalent",
+        "aliasNames": [
+            "megatoe",
+            "Megaton of Oil Equivalent"
+        ],
+        "quantity": "Energy",
+        "conversion": {
+            "multiplier": 4.1868e+16,
+            "offset": 0.0
+        },
+        "source": "qudt.org",
+        "sourceReference": "http://qudt.org/vocab/unit/MegaTOE"
+    },
+    {
+        "externalId": "energy:toe",
+        "name": "toe",
+        "longName": "Ton of Oil Equivalent",
+        "aliasNames": [
+            "toe",
+            "Ton of Oil Equivalent"
+        ],
+        "quantity": "Energy",
+        "conversion": {
+            "multiplier": 41868000000.0,
+            "offset": 0.0
+        },
+        "source": "qudt.org",
+        "sourceReference": "http://qudt.org/vocab/unit/TOE"
+    },
+    {
+        "externalId": "energy:ft-lb_f",
+        "name": "ft\u22c5lbf",
+        "longName": "Foot Pound Force",
+        "aliasNames": [
+            "ft\u22c5lbf",
+            "Foot Pound Force"
+        ],
+        "quantity": "Energy",
+        "conversion": {
+            "multiplier": 1.35581807,
+            "offset": 0.0
+        },
+        "source": "qudt.org",
+        "sourceReference": "http://qudt.org/vocab/unit/FT-LB_F"
+    },
+    {
+        "externalId": "energy:petaj",
+        "name": "PJ",
+        "longName": "Petajoule",
+        "aliasNames": [
+            "PJ",
+            "Petajoule"
+        ],
+        "quantity": "Energy",
+        "conversion": {
+            "multiplier": 1000000000000000.0,
+            "offset": 0.0
+        },
+        "source": "qudt.org",
+        "sourceReference": "http://qudt.org/vocab/unit/PetaJ"
+    },
+    {
+        "externalId": "energy:teraw-hr",
+        "name": "TW\u22c5hr",
+        "longName": "Terawatt Hour",
+        "aliasNames": [
+            "TW\u22c5hr",
+            "Terawatt Hour"
+        ],
+        "quantity": "Energy",
+        "conversion": {
+            "multiplier": 3600000000000000.0,
+            "offset": 0.0
+        },
+        "source": "qudt.org",
+        "sourceReference": "http://qudt.org/vocab/unit/TeraW-HR"
+    },
+    {
+        "externalId": "energy:microj",
+        "name": "\u00b5J",
+        "longName": "Micro Joule",
+        "aliasNames": [
+            "\u00b5J",
+            "Micro Joule"
+        ],
+        "quantity": "Energy",
+        "conversion": {
+            "multiplier": 1e-06,
+            "offset": 0.0
+        },
+        "source": "qudt.org",
+        "sourceReference": "http://qudt.org/vocab/unit/MicroJ"
+    },
+    {
+        "externalId": "energy:btu_th",
+        "name": "Btu{th}",
+        "longName": "British Thermal Unit (Thermochemical Definition)",
+        "aliasNames": [
+            "Btu{th}",
+            "British Thermal Unit (Thermochemical Definition)"
+        ],
+        "quantity": "Energy",
+        "conversion": {
+            "multiplier": 1054.3502645,
+            "offset": 0.0
+        },
+        "source": "qudt.org",
+        "sourceReference": "http://qudt.org/vocab/unit/BTU_TH"
+    },
+    {
+        "externalId": "energy:exaj",
+        "name": "EJ",
+        "longName": "Exajoule",
+        "aliasNames": [
+            "EJ",
+            "Exajoule"
+        ],
+        "quantity": "Energy",
+        "conversion": {
+            "multiplier": 1e+18,
+            "offset": 0.0
+        },
+        "source": "qudt.org",
+        "sourceReference": "http://qudt.org/vocab/unit/ExaJ"
+    },
+    {
+        "externalId": "energy:cal_th",
+        "name": "cal",
+        "longName": "Thermochemical Calorie",
+        "aliasNames": [
+            "cal",
+            "Thermochemical Calorie"
+        ],
+        "quantity": "Energy",
+        "conversion": {
+            "multiplier": 4.184,
+            "offset": 0.0
+        },
+        "source": "qudt.org",
+        "sourceReference": "http://qudt.org/vocab/unit/CAL_TH"
+    },
+    {
+        "externalId": "energy:gigaj",
+        "name": "GJ",
+        "longName": "Gigajoule",
+        "aliasNames": [
+            "GJ",
+            "Gigajoule"
+        ],
+        "quantity": "Energy",
+        "conversion": {
+            "multiplier": 1000000000.0,
+            "offset": 0.0
+        },
+        "source": "qudt.org",
+        "sourceReference": "http://qudt.org/vocab/unit/GigaJ"
+    },
+    {
+        "externalId": "energy:kilobtu_th",
+        "name": "kBtu{th}",
+        "longName": "Kilo British Thermal Unit (Thermochemical Definition)",
+        "aliasNames": [
+            "kBtu{th}",
+            "Kilo British Thermal Unit (Thermochemical Definition)"
+        ],
+        "quantity": "Energy",
+        "conversion": {
+            "multiplier": 1054350.2645,
+            "offset": 0.0
+        },
+        "source": "qudt.org",
+        "sourceReference": "http://qudt.org/vocab/unit/KiloBTU_TH"
+    },
+    {
+        "externalId": "energy:kilov-a-hr",
+        "name": "kV\u22c5A/hr",
+        "longName": "Kilovolt Ampere Hour",
+        "aliasNames": [
+            "kV\u22c5A/hr",
+            "Kilovolt Ampere Hour"
+        ],
+        "quantity": "Energy",
+        "conversion": {
+            "multiplier": 3600000.0,
+            "offset": 0.0
+        },
+        "source": "qudt.org",
+        "sourceReference": "http://qudt.org/vocab/unit/KiloV-A-HR"
+    },
+    {
+        "externalId": "energy:gigaev",
+        "name": "GeV",
+        "longName": "Giga Electron Volt",
+        "aliasNames": [
+            "GeV",
+            "Giga Electron Volt"
+        ],
+        "quantity": "Energy",
+        "conversion": {
+            "multiplier": 1.602176634e-10,
+            "offset": 0.0
+        },
+        "source": "qudt.org",
+        "sourceReference": "http://qudt.org/vocab/unit/GigaEV"
+    },
+    {
+        "externalId": "energy:w-sec",
+        "name": "W\u22c5s",
+        "longName": "Watt Second",
+        "aliasNames": [
+            "W\u22c5s",
+            "Watt Second"
+        ],
+        "quantity": "Energy",
+        "conversion": {
+            "multiplier": 1.0,
+            "offset": 0.0
+        },
+        "source": "qudt.org",
+        "sourceReference": "http://qudt.org/vocab/unit/W-SEC"
+    },
+    {
+        "externalId": "energy:j",
+        "name": "J",
+        "longName": "joule",
+        "aliasNames": [
+            "J",
+            "joule"
+        ],
+        "quantity": "Energy",
+        "conversion": {
+            "multiplier": 1.0,
+            "offset": 0.0
+        },
+        "source": "qudt.org",
+        "sourceReference": "http://qudt.org/vocab/unit/J"
+    },
+    {
+        "externalId": "energy:kilocal",
+        "name": "kcal",
+        "longName": "Kilocalorie",
+        "aliasNames": [
+            "kcal",
+            "Kilocalorie"
+        ],
+        "quantity": "Energy",
+        "conversion": {
+            "multiplier": 4184.0,
+            "offset": 0.0
+        },
+        "source": "qudt.org",
+        "sourceReference": "http://qudt.org/vocab/unit/KiloCAL"
+    },
+    {
+        "externalId": "energy:kilow-hr",
+        "name": "kW\u22c5h",
+        "longName": "Kilowatthour",
+        "aliasNames": [
+            "kW\u22c5h",
+            "Kilowatthour"
+        ],
+        "quantity": "Energy",
+        "conversion": {
+            "multiplier": 3600000.0,
+            "offset": 0.0
+        },
+        "source": "qudt.org",
+        "sourceReference": "http://qudt.org/vocab/unit/KiloW-HR"
+    },
+    {
+        "externalId": "energy:w-hr",
+        "name": "W\u22c5hr",
+        "longName": "Watthour",
+        "aliasNames": [
+            "W\u22c5hr",
+            "Watthour"
+        ],
+        "quantity": "Energy",
+        "conversion": {
+            "multiplier": 3600.0,
+            "offset": 0.0
+        },
+        "source": "qudt.org",
+        "sourceReference": "http://qudt.org/vocab/unit/W-HR"
+    },
+    {
+        "externalId": "energy:kiloev",
+        "name": "keV",
+        "longName": "Kilo Electron Volt",
+        "aliasNames": [
+            "keV",
+            "Kilo Electron Volt"
+        ],
+        "quantity": "Energy",
+        "conversion": {
+            "multiplier": 1.602176634e-16,
+            "offset": 0.0
+        },
+        "source": "qudt.org",
+        "sourceReference": "http://qudt.org/vocab/unit/KiloEV"
+    },
+    {
+        "externalId": "energy:cal_it",
+        "name": "cal{IT}",
+        "longName": "International Table calorie",
+        "aliasNames": [
+            "cal{IT}",
+            "International Table calorie"
+        ],
+        "quantity": "Energy",
+        "conversion": {
+            "multiplier": 4.1868,
+            "offset": 0.0
+        },
+        "source": "qudt.org",
+        "sourceReference": "http://qudt.org/vocab/unit/CAL_IT"
+    },
+    {
+        "externalId": "energy:megaj",
+        "name": "MJ",
+        "longName": "Megajoule",
+        "aliasNames": [
+            "MJ",
+            "Megajoule"
+        ],
+        "quantity": "Energy",
+        "conversion": {
+            "multiplier": 1000000.0,
+            "offset": 0.0
+        },
+        "source": "qudt.org",
+        "sourceReference": "http://qudt.org/vocab/unit/MegaJ"
+    },
+    {
+        "externalId": "energy:megav-a-hr",
+        "name": "MV\u22c5A\u22c5hr",
+        "longName": "Megavolt Ampere Hour",
+        "aliasNames": [
+            "MV\u22c5A\u22c5hr",
+            "Megavolt Ampere Hour"
+        ],
+        "quantity": "Energy",
+        "conversion": {
+            "multiplier": 3600000000.0,
+            "offset": 0.0
+        },
+        "source": "qudt.org",
+        "sourceReference": "http://qudt.org/vocab/unit/MegaV-A-HR"
+    },
+    {
+        "externalId": "energy:btu_it",
+        "name": "Btu{IT}",
+        "longName": "British Thermal Unit (International Definition)",
+        "aliasNames": [
+            "Btu{IT}",
+            "British Thermal Unit (International Definition)"
+        ],
+        "quantity": "Energy",
+        "conversion": {
+            "multiplier": 1055.05585262,
+            "offset": 0.0
+        },
+        "source": "qudt.org",
+        "sourceReference": "http://qudt.org/vocab/unit/BTU_IT"
+    },
+    {
+        "externalId": "energy:kilobtu_it",
+        "name": "kBtu{IT}",
+        "longName": "Kilo British Thermal Unit (International Definition)",
+        "aliasNames": [
+            "kBtu{IT}",
+            "Kilo British Thermal Unit (International Definition)"
+        ],
+        "quantity": "Energy",
+        "conversion": {
+            "multiplier": 105505.585262,
+            "offset": 0.0
+        },
+        "source": "qudt.org",
+        "sourceReference": "http://qudt.org/vocab/unit/KiloBTU_IT"
+    },
+    {
+        "externalId": "energy:kiloj",
+        "name": "kJ",
+        "longName": "Kilojoule",
+        "aliasNames": [
+            "kJ",
+            "Kilojoule"
+        ],
+        "quantity": "Energy",
+        "conversion": {
+            "multiplier": 1000.0,
+            "offset": 0.0
+        },
+        "source": "qudt.org",
+        "sourceReference": "http://qudt.org/vocab/unit/KiloJ"
+    },
+    {
+        "externalId": "energy:gigaw-hr",
+        "name": "GW\u22c5hr",
+        "longName": "Gigawatt Hour",
+        "aliasNames": [
+            "GW\u22c5hr",
+            "Gigawatt Hour"
+        ],
+        "quantity": "Energy",
+        "conversion": {
+            "multiplier": 3600000000000.0,
+            "offset": 0.0
+        },
+        "source": "qudt.org",
+        "sourceReference": "http://qudt.org/vocab/unit/GigaW-HR"
+    },
+    {
+        "externalId": "volume:megal",
+        "name": "ML",
+        "longName": "Megalitre",
+        "aliasNames": [
+            "ML",
+            "Megalitre"
+        ],
+        "quantity": "Volume",
+        "conversion": {
+            "multiplier": 1000.0,
+            "offset": 0.0
+        },
+        "source": "qudt.org",
+        "sourceReference": "http://qudt.org/vocab/unit/MegaL"
+    },
+    {
+        "externalId": "volume:decim3",
+        "name": "dm\u00b3",
+        "longName": "Cubic Decimetre",
+        "aliasNames": [
+            "dm\u00b3",
+            "Cubic Decimetre"
+        ],
+        "quantity": "Volume",
+        "conversion": {
+            "multiplier": 0.001,
+            "offset": 0.0
+        },
+        "source": "qudt.org",
+        "sourceReference": "http://qudt.org/vocab/unit/DeciM3"
+    },
+    {
+        "externalId": "volume:millil",
+        "name": "mL",
+        "longName": "Millilitre",
+        "aliasNames": [
+            "mL",
+            "Millilitre"
+        ],
+        "quantity": "Volume",
+        "conversion": {
+            "multiplier": 1e-06,
+            "offset": 0.0
+        },
+        "source": "qudt.org",
+        "sourceReference": "http://qudt.org/vocab/unit/MilliL"
+    },
+    {
+        "externalId": "volume:decal",
+        "name": "daL",
+        "longName": "Decalitre",
+        "aliasNames": [
+            "daL",
+            "Decalitre"
+        ],
+        "quantity": "Volume",
+        "conversion": {
+            "multiplier": 0.01,
+            "offset": 0.0
+        },
+        "source": "qudt.org",
+        "sourceReference": "http://qudt.org/vocab/unit/DecaL"
+    },
+    {
+        "externalId": "volume:l",
+        "name": "L",
+        "longName": "Litre",
+        "aliasNames": [
+            "L",
+            "Litre"
+        ],
+        "quantity": "Volume",
+        "conversion": {
+            "multiplier": 0.001,
+            "offset": 0.0
+        },
+        "source": "qudt.org",
+        "sourceReference": "http://qudt.org/vocab/unit/L"
+    },
+    {
+        "externalId": "volume:microl",
+        "name": "\u00ce\u00bcL",
+        "longName": "Microlitre",
+        "aliasNames": [
+            "\u00ce\u00bcL",
+            "Microlitre"
+        ],
+        "quantity": "Volume",
+        "conversion": {
+            "multiplier": 1e-09,
+            "offset": 0.0
+        },
+        "source": "qudt.org",
+        "sourceReference": "http://qudt.org/vocab/unit/MicroL"
+    },
+    {
+        "externalId": "volume:in3",
+        "name": "in\u00b3",
+        "longName": "Cubic Inch",
+        "aliasNames": [
+            "in\u00b3",
+            "Cubic Inch"
+        ],
+        "quantity": "Volume",
+        "conversion": {
+            "multiplier": 1.6387064e-05,
+            "offset": 0.0
+        },
+        "source": "qudt.org",
+        "sourceReference": "http://qudt.org/vocab/unit/IN3"
+    },
+    {
+        "externalId": "volume:microm3",
+        "name": "\u00b5m\u00b3",
+        "longName": "Cubic micrometres (microns)",
+        "aliasNames": [
+            "\u00b5m\u00b3",
+            "Cubic micrometres (microns)"
+        ],
+        "quantity": "Volume",
+        "conversion": {
+            "multiplier": 1e-18,
+            "offset": 0.0
+        },
+        "source": "qudt.org",
+        "sourceReference": "http://qudt.org/vocab/unit/MicroM3"
+    },
+    {
+        "externalId": "volume:millim3",
+        "name": "mm\u00b3",
+        "longName": "Cubic Millimetre",
+        "aliasNames": [
+            "mm\u00b3",
+            "Cubic Millimetre"
+        ],
+        "quantity": "Volume",
+        "conversion": {
+            "multiplier": 1e-09,
+            "offset": 0.0
+        },
+        "source": "qudt.org",
+        "sourceReference": "http://qudt.org/vocab/unit/MilliM3"
+    },
+    {
+        "externalId": "volume:decam3",
+        "name": "dam\u00b3",
+        "longName": "Cubic Decametre",
+        "aliasNames": [
+            "dam\u00b3",
+            "Cubic Decametre"
+        ],
+        "quantity": "Volume",
+        "conversion": {
+            "multiplier": 1000.0,
+            "offset": 0.0
+        },
+        "source": "qudt.org",
+        "sourceReference": "http://qudt.org/vocab/unit/DecaM3"
+    },
+    {
+        "externalId": "volume:ft3",
+        "name": "ft\u00b3",
+        "longName": "Cubic Foot",
+        "aliasNames": [
+            "ft\u00b3",
+            "Cubic Foot"
+        ],
+        "quantity": "Volume",
+        "conversion": {
+            "multiplier": 0.028316846592,
+            "offset": 0.0
+        },
+        "source": "qudt.org",
+        "sourceReference": "http://qudt.org/vocab/unit/FT3"
+    },
+    {
+        "externalId": "volume:centim3",
+        "name": "cm\u00b3",
+        "longName": "cubic centimetre",
+        "aliasNames": [
+            "cm\u00b3",
+            "cubic centimetre"
+        ],
+        "quantity": "Volume",
+        "conversion": {
+            "multiplier": 1e-06,
+            "offset": 0.0
+        },
+        "source": "qudt.org",
+        "sourceReference": "http://qudt.org/vocab/unit/CentiM3"
+    },
+    {
+        "externalId": "volume:yd3",
+        "name": "yd\u00b3",
+        "longName": "Cubic Yard",
+        "aliasNames": [
+            "yd\u00b3",
+            "Cubic Yard"
+        ],
+        "quantity": "Volume",
+        "conversion": {
+            "multiplier": 0.764554857984,
+            "offset": 0.0
+        },
+        "source": "qudt.org",
+        "sourceReference": "http://qudt.org/vocab/unit/YD3"
+    },
+    {
+        "externalId": "volume:kilol",
+        "name": "kL",
+        "longName": "Kilolitre",
+        "aliasNames": [
+            "kL",
+            "Kilolitre"
+        ],
+        "quantity": "Volume",
+        "conversion": {
+            "multiplier": 1.0,
+            "offset": 0.0
+        },
+        "source": "qudt.org",
+        "sourceReference": "http://qudt.org/vocab/unit/KiloL"
+    },
+    {
+        "externalId": "volume:mi3",
+        "name": "mi\u00b3",
+        "longName": "Cubic Mile",
+        "aliasNames": [
+            "mi\u00b3",
+            "Cubic Mile"
+        ],
+        "quantity": "Volume",
+        "conversion": {
+            "multiplier": 4168181830.0,
+            "offset": 0.0
+        },
+        "source": "qudt.org",
+        "sourceReference": "http://qudt.org/vocab/unit/MI3"
+    },
+    {
+        "externalId": "volume:m3",
+        "name": "m\u00b3",
+        "longName": "cubic metre",
+        "aliasNames": [
+            "m\u00b3",
+            "cubic metre"
+        ],
+        "quantity": "Volume",
+        "conversion": {
+            "multiplier": 1.0,
+            "offset": 0.0
+        },
+        "source": "qudt.org",
+        "sourceReference": "http://qudt.org/vocab/unit/M3"
+    },
+    {
+        "externalId": "volume:kilo-ft3",
+        "name": "k.ft\u00b3",
+        "longName": "Thousand Cubic Foot",
+        "aliasNames": [
+            "k.ft\u00b3",
+            "Thousand Cubic Foot"
+        ],
+        "quantity": "Volume",
+        "conversion": {
+            "multiplier": 28.316846592,
+            "offset": 0.0
+        },
+        "source": "qudt.org",
+        "sourceReference": "http://qudt.org/vocab/unit/Kilo-FT3"
+    },
+    {
+        "externalId": "volume:hectol",
+        "name": "hL",
+        "longName": "Hectolitre",
+        "aliasNames": [
+            "hL",
+            "Hectolitre"
+        ],
+        "quantity": "Volume",
+        "conversion": {
+            "multiplier": 0.1,
+            "offset": 0.0
+        },
+        "source": "qudt.org",
+        "sourceReference": "http://qudt.org/vocab/unit/HectoL"
+    },
+    {
+        "externalId": "volume:oz_vol_uk",
+        "name": "oz{UK}",
+        "longName": "Fluid Ounce (UK)",
+        "aliasNames": [
+            "oz{UK}",
+            "Fluid Ounce (UK)"
+        ],
+        "quantity": "Volume",
+        "conversion": {
+            "multiplier": 2.84130625e-05,
+            "offset": 0.0
+        },
+        "source": "qudt.org",
+        "sourceReference": "http://qudt.org/vocab/unit/OZ_VOL_UK"
+    },
+    {
+        "externalId": "volume:decil",
+        "name": "dL",
+        "longName": "Decilitre",
+        "aliasNames": [
+            "dL",
+            "Decilitre"
+        ],
+        "quantity": "Volume",
+        "conversion": {
+            "multiplier": 0.0001,
+            "offset": 0.0
+        },
+        "source": "qudt.org",
+        "sourceReference": "http://qudt.org/vocab/unit/DeciL"
+    },
+    {
+        "externalId": "volume:bbl_uk_pet",
+        "name": "bbl{UK petroleum}",
+        "longName": "Barrel (UK Petroleum)",
+        "aliasNames": [
+            "bbl{UK petroleum}",
+            "Barrel (UK Petroleum)"
+        ],
+        "quantity": "Volume",
+        "conversion": {
+            "multiplier": 0.1591132,
+            "offset": 0.0
+        },
+        "source": "qudt.org",
+        "sourceReference": "http://qudt.org/vocab/unit/BBL_UK_PET"
+    },
+    {
+        "externalId": "volume:bbl_us",
+        "name": "bbl{US petroleum}",
+        "longName": "Barrel (US)",
+        "aliasNames": [
+            "bbl{US petroleum}",
+            "Barrel (US)"
+        ],
+        "quantity": "Volume",
+        "conversion": {
+            "multiplier": 0.1589873,
+            "offset": 0.0
+        },
+        "source": "qudt.org",
+        "sourceReference": "http://qudt.org/vocab/unit/BBL_US"
+    },
+    {
+        "externalId": "percent:percent",
+        "name": "%",
+        "longName": "Percent",
+        "aliasNames": [
+            "%",
+            "Percent"
+        ],
+        "quantity": "Percent",
+        "conversion": {
+            "multiplier": 1.0,
+            "offset": 0.0
+        },
+        "source": null,
+        "sourceReference": null
+    },
+    {
+        "externalId": "percent:fraction",
+        "name": "fraction",
+        "longName": "Fraction",
+        "aliasNames": [
+            "fraction"
+        ],
+        "quantity": "Percent",
+        "conversion": {
+            "multiplier": 0.01,
+            "offset": 0.0
+        },
+        "source": null,
+        "sourceReference": null
+    },
+    {
+        "externalId": "mass:slug",
+        "name": "slug",
+        "longName": "Slug",
+        "aliasNames": [
+            "slug",
+            "Slug"
+        ],
+        "quantity": "Mass",
+        "conversion": {
+            "multiplier": 14.593903,
+            "offset": 0.0
+        },
+        "source": "qudt.org",
+        "sourceReference": "http://qudt.org/vocab/unit/SLUG"
+    },
+    {
+        "externalId": "mass:oz",
+        "name": "oz",
+        "longName": "Ounce Mass",
+        "aliasNames": [
+            "oz",
+            "Ounce Mass"
+        ],
+        "quantity": "Mass",
+        "conversion": {
+            "multiplier": 0.028349523125,
+            "offset": 0.0
+        },
+        "source": "qudt.org",
+        "sourceReference": "http://qudt.org/vocab/unit/OZ"
+    },
+    {
+        "externalId": "mass:milligm",
+        "name": "mg",
+        "longName": "Milligram",
+        "aliasNames": [
+            "mg",
+            "Milligram"
+        ],
+        "quantity": "Mass",
+        "conversion": {
+            "multiplier": 1e-06,
+            "offset": 0.0
+        },
+        "source": "qudt.org",
+        "sourceReference": "http://qudt.org/vocab/unit/MilliGM"
+    },
+    {
+        "externalId": "mass:ton_long",
+        "name": "t{long}",
+        "longName": "Long Ton",
+        "aliasNames": [
+            "t{long}",
+            "Long Ton"
+        ],
+        "quantity": "Mass",
+        "conversion": {
+            "multiplier": 1016.0469088,
+            "offset": 0.0
+        },
+        "source": "qudt.org",
+        "sourceReference": "http://qudt.org/vocab/unit/TON_LONG"
+    },
+    {
+        "externalId": "mass:decitonne",
+        "name": "dt",
+        "longName": "DeciTonne",
+        "aliasNames": [
+            "dt",
+            "DeciTonne"
+        ],
+        "quantity": "Mass",
+        "conversion": {
+            "multiplier": 100.0,
+            "offset": 0.0
+        },
+        "source": "qudt.org",
+        "sourceReference": "http://qudt.org/vocab/unit/DeciTONNE"
+    },
+    {
+        "externalId": "mass:kiloton_metric",
+        "name": "kton{short}",
+        "longName": "Metric KiloTON",
+        "aliasNames": [
+            "kton{short}",
+            "Metric KiloTON"
+        ],
+        "quantity": "Mass",
+        "conversion": {
+            "multiplier": 1000000.0,
+            "offset": 0.0
+        },
+        "source": "qudt.org",
+        "sourceReference": "http://qudt.org/vocab/unit/KiloTON_Metric"
+    },
+    {
+        "externalId": "mass:ton_metric",
+        "name": "t",
+        "longName": "Metric Ton",
+        "aliasNames": [
+            "t",
+            "Metric Ton"
+        ],
+        "quantity": "Mass",
+        "conversion": {
+            "multiplier": 1000.0,
+            "offset": 0.0
+        },
+        "source": "qudt.org",
+        "sourceReference": "http://qudt.org/vocab/unit/TON_Metric"
+    },
+    {
+        "externalId": "mass:kilotonne",
+        "name": "kt",
+        "longName": "KiloTonne",
+        "aliasNames": [
+            "kt",
+            "KiloTonne"
+        ],
+        "quantity": "Mass",
+        "conversion": {
+            "multiplier": 1000000.0,
+            "offset": 0.0
+        },
+        "source": "qudt.org",
+        "sourceReference": "http://qudt.org/vocab/unit/KiloTONNE"
+    },
+    {
+        "externalId": "mass:ton_short",
+        "name": "ton{short}",
+        "longName": "Short Ton",
+        "aliasNames": [
+            "ton{short}",
+            "Short Ton"
+        ],
+        "quantity": "Mass",
+        "conversion": {
+            "multiplier": 907.18474,
+            "offset": 0.0
+        },
+        "source": "qudt.org",
+        "sourceReference": "http://qudt.org/vocab/unit/TON_SHORT"
+    },
+    {
+        "externalId": "mass:ton_us",
+        "name": "ton{US}",
+        "longName": "Ton (US)",
+        "aliasNames": [
+            "ton{US}",
+            "Ton (US)"
+        ],
+        "quantity": "Mass",
+        "conversion": {
+            "multiplier": 907.1847,
+            "offset": 0.0
+        },
+        "source": "qudt.org",
+        "sourceReference": "http://qudt.org/vocab/unit/TON_US"
+    },
+    {
+        "externalId": "mass:megagm",
+        "name": "Mg",
+        "longName": "Megagram",
+        "aliasNames": [
+            "Mg",
+            "Megagram"
+        ],
+        "quantity": "Mass",
+        "conversion": {
+            "multiplier": 1000.0,
+            "offset": 0.0
+        },
+        "source": "qudt.org",
+        "sourceReference": "http://qudt.org/vocab/unit/MegaGM"
+    },
+    {
+        "externalId": "mass:gm",
+        "name": "g",
+        "longName": "Gram",
+        "aliasNames": [
+            "g",
+            "Gram"
+        ],
+        "quantity": "Mass",
+        "conversion": {
+            "multiplier": 0.001,
+            "offset": 0.0
+        },
+        "source": "qudt.org",
+        "sourceReference": "http://qudt.org/vocab/unit/GM"
+    },
+    {
+        "externalId": "mass:tonne",
+        "name": "t",
+        "longName": "Tonne",
+        "aliasNames": [
+            "t",
+            "Tonne"
+        ],
+        "quantity": "Mass",
+        "conversion": {
+            "multiplier": 1000.0,
+            "offset": 0.0
+        },
+        "source": "qudt.org",
+        "sourceReference": "http://qudt.org/vocab/unit/TONNE"
+    },
+    {
+        "externalId": "mass:lb",
+        "name": "lbm",
+        "longName": "Pound Mass",
+        "aliasNames": [
+            "lbm",
+            "Pound Mass"
+        ],
+        "quantity": "Mass",
+        "conversion": {
+            "multiplier": 0.45359237,
+            "offset": 0.0
+        },
+        "source": "qudt.org",
+        "sourceReference": "http://qudt.org/vocab/unit/LB"
+    },
+    {
+        "externalId": "mass:ton_uk",
+        "name": "ton{UK}",
+        "longName": "Ton (UK)",
+        "aliasNames": [
+            "ton{UK}",
+            "Ton (UK)"
+        ],
+        "quantity": "Mass",
+        "conversion": {
+            "multiplier": 1016.0,
+            "offset": 0.0
+        },
+        "source": "qudt.org",
+        "sourceReference": "http://qudt.org/vocab/unit/TON_UK"
+    },
+    {
+        "externalId": "mass:kilogm",
+        "name": "kg",
+        "longName": "kilogram",
+        "aliasNames": [
+            "kg",
+            "kilogram"
+        ],
+        "quantity": "Mass",
+        "conversion": {
+            "multiplier": 1.0,
+            "offset": 0.0
+        },
+        "source": "qudt.org",
+        "sourceReference": "http://qudt.org/vocab/unit/KiloGM"
+    },
+    {
+        "externalId": "pressure:kilogm-per-m-sec2",
+        "name": "kg/(m\u22c5s\u00b2)",
+        "longName": "Kilograms per metre per square second",
+        "aliasNames": [
+            "kg/(m\u22c5s\u00b2)",
+            "Kilograms per metre per square second"
+        ],
+        "quantity": "Pressure",
+        "conversion": {
+            "multiplier": 1.0,
+            "offset": 0.0
+        },
+        "source": "qudt.org",
+        "sourceReference": "http://qudt.org/vocab/unit/KiloGM-PER-M-SEC2"
+    },
+    {
+        "externalId": "pressure:megabar",
+        "name": "Mbar",
+        "longName": "Megabar",
+        "aliasNames": [
+            "Mbar",
+            "Megabar"
+        ],
+        "quantity": "Pressure",
+        "conversion": {
+            "multiplier": 100000000000.0,
+            "offset": 0.0
+        },
+        "source": "qudt.org",
+        "sourceReference": "http://qudt.org/vocab/unit/MegaBAR"
+    },
+    {
+        "externalId": "pressure:hectopa",
+        "name": "hPa",
+        "longName": "Hectopascal",
+        "aliasNames": [
+            "hPa",
+            "Hectopascal"
+        ],
+        "quantity": "Pressure",
+        "conversion": {
+            "multiplier": 100.0,
+            "offset": 0.0
+        },
+        "source": "qudt.org",
+        "sourceReference": "http://qudt.org/vocab/unit/HectoPA"
+    },
+    {
+        "externalId": "pressure:kilolb_f-per-in2",
+        "name": "kpsi",
+        "longName": "Kilopound Force Per Square Inch",
+        "aliasNames": [
+            "kpsi",
+            "Kilopound Force Per Square Inch"
+        ],
+        "quantity": "Pressure",
+        "conversion": {
+            "multiplier": 6894757.89,
+            "offset": 0.0
+        },
+        "source": "qudt.org",
+        "sourceReference": "http://qudt.org/vocab/unit/KiloLB_F-PER-IN2"
+    },
+    {
+        "externalId": "pressure:gigapa",
+        "name": "GPa",
+        "longName": "Gigapascal",
+        "aliasNames": [
+            "GPa",
+            "Gigapascal"
+        ],
+        "quantity": "Pressure",
+        "conversion": {
+            "multiplier": 1000000000.0,
+            "offset": 0.0
+        },
+        "source": "qudt.org",
+        "sourceReference": "http://qudt.org/vocab/unit/GigaPA"
+    },
+    {
+        "externalId": "pressure:kilopa",
+        "name": "kPa",
+        "longName": "Kilopascal",
+        "aliasNames": [
+            "kPa",
+            "Kilopascal"
+        ],
+        "quantity": "Pressure",
+        "conversion": {
+            "multiplier": 1000.0,
+            "offset": 0.0
+        },
+        "source": "qudt.org",
+        "sourceReference": "http://qudt.org/vocab/unit/KiloPA"
+    },
+    {
+        "externalId": "pressure:atm",
+        "name": "atm",
+        "longName": "Standard Atmosphere",
+        "aliasNames": [
+            "atm",
+            "Standard Atmosphere"
+        ],
+        "quantity": "Pressure",
+        "conversion": {
+            "multiplier": 101325.0,
+            "offset": 0.0
+        },
+        "source": "qudt.org",
+        "sourceReference": "http://qudt.org/vocab/unit/ATM"
+    },
+    {
+        "externalId": "pressure:torr",
+        "name": "Torr",
+        "longName": "Torr",
+        "aliasNames": [
+            "Torr",
+            "Torr"
+        ],
+        "quantity": "Pressure",
+        "conversion": {
+            "multiplier": 133.322,
+            "offset": 0.0
+        },
+        "source": "qudt.org",
+        "sourceReference": "http://qudt.org/vocab/unit/TORR"
+    },
+    {
+        "externalId": "pressure:centim_h2o",
+        "name": "cmH\u00e2\u0082\u00820",
+        "longName": "Conventional Centimetre Of Water",
+        "aliasNames": [
+            "cmH\u00e2\u0082\u00820",
+            "Conventional Centimetre Of Water"
+        ],
+        "quantity": "Pressure",
+        "conversion": {
+            "multiplier": 98.0665,
+            "offset": 0.0
+        },
+        "source": "qudt.org",
+        "sourceReference": "http://qudt.org/vocab/unit/CentiM_H2O"
+    },
+    {
+        "externalId": "pressure:megapa",
+        "name": "MPa",
+        "longName": "Megapascal",
+        "aliasNames": [
+            "MPa",
+            "Megapascal"
+        ],
+        "quantity": "Pressure",
+        "conversion": {
+            "multiplier": 1000000.0,
+            "offset": 0.0
+        },
+        "source": "qudt.org",
+        "sourceReference": "http://qudt.org/vocab/unit/MegaPA"
+    },
+    {
+        "externalId": "pressure:psi",
+        "name": "psi",
+        "longName": "PSI",
+        "aliasNames": [
+            "psi",
+            "PSI"
+        ],
+        "quantity": "Pressure",
+        "conversion": {
+            "multiplier": 6894.75789,
+            "offset": 0.0
+        },
+        "source": "qudt.org",
+        "sourceReference": "http://qudt.org/vocab/unit/PSI"
+    },
+    {
+        "externalId": "pressure:lb_f-per-ft2",
+        "name": "lbf/ft\u00b2",
+        "longName": "Pound Force per Square Foot",
+        "aliasNames": [
+            "lbf/ft\u00b2",
+            "Pound Force per Square Foot"
+        ],
+        "quantity": "Pressure",
+        "conversion": {
+            "multiplier": 47.8802631,
+            "offset": 0.0
+        },
+        "source": "qudt.org",
+        "sourceReference": "http://qudt.org/vocab/unit/LB_F-PER-FT2"
+    },
+    {
+        "externalId": "pressure:kilogm_f-per-centim2",
+        "name": "kgf/cm\u00b2",
+        "longName": "Kilogram Force per Square Centimetre",
+        "aliasNames": [
+            "kgf/cm\u00b2",
+            "Kilogram Force per Square Centimetre"
+        ],
+        "quantity": "Pressure",
+        "conversion": {
+            "multiplier": 98066.5,
+            "offset": 0.0
+        },
+        "source": "qudt.org",
+        "sourceReference": "http://qudt.org/vocab/unit/KiloGM_F-PER-CentiM2"
+    },
+    {
+        "externalId": "pressure:bar",
+        "name": "bar",
+        "longName": "Bar",
+        "aliasNames": [
+            "bar",
+            "Bar"
+        ],
+        "quantity": "Pressure",
+        "conversion": {
+            "multiplier": 100000.0,
+            "offset": 0.0
+        },
+        "source": "qudt.org",
+        "sourceReference": "http://qudt.org/vocab/unit/BAR"
+    },
+    {
+        "externalId": "pressure:millibar",
+        "name": "mbar",
+        "longName": "Millibar",
+        "aliasNames": [
+            "mbar",
+            "Millibar"
+        ],
+        "quantity": "Pressure",
+        "conversion": {
+            "multiplier": 100.0,
+            "offset": 0.0
+        },
+        "source": "qudt.org",
+        "sourceReference": "http://qudt.org/vocab/unit/MilliBAR"
+    },
+    {
+        "externalId": "pressure:n-per-m2",
+        "name": "N/m\u00b2",
+        "longName": "Newtons Per Square Metre",
+        "aliasNames": [
+            "N/m\u00b2",
+            "Newtons Per Square Metre"
+        ],
+        "quantity": "Pressure",
+        "conversion": {
+            "multiplier": 1.0,
+            "offset": 0.0
+        },
+        "source": "qudt.org",
+        "sourceReference": "http://qudt.org/vocab/unit/N-PER-M2"
+    },
+    {
+        "externalId": "pressure:atm_t",
+        "name": "at",
+        "longName": "Technical Atmosphere",
+        "aliasNames": [
+            "at",
+            "Technical Atmosphere"
+        ],
+        "quantity": "Pressure",
+        "conversion": {
+            "multiplier": 98066.5,
+            "offset": 0.0
+        },
+        "source": "qudt.org",
+        "sourceReference": "http://qudt.org/vocab/unit/ATM_T"
+    },
+    {
+        "externalId": "pressure:millim_hg",
+        "name": "mmHg",
+        "longName": "Millimetre of Mercury",
+        "aliasNames": [
+            "mmHg",
+            "Millimetre of Mercury"
+        ],
+        "quantity": "Pressure",
+        "conversion": {
+            "multiplier": 133.322387415,
+            "offset": 0.0
+        },
+        "source": "qudt.org",
+        "sourceReference": "http://qudt.org/vocab/unit/MilliM_HG"
+    },
+    {
+        "externalId": "pressure:kilobar",
+        "name": "kbar",
+        "longName": "Kilobar",
+        "aliasNames": [
+            "kbar",
+            "Kilobar"
+        ],
+        "quantity": "Pressure",
+        "conversion": {
+            "multiplier": 100000000.0,
+            "offset": 0.0
+        },
+        "source": "qudt.org",
+        "sourceReference": "http://qudt.org/vocab/unit/KiloBAR"
+    },
+    {
+        "externalId": "pressure:pa",
+        "name": "Pa",
+        "longName": "pascal",
+        "aliasNames": [
+            "Pa",
+            "pascal"
+        ],
+        "quantity": "Pressure",
+        "conversion": {
+            "multiplier": 1.0,
+            "offset": 0.0
+        },
+        "source": "qudt.org",
+        "sourceReference": "http://qudt.org/vocab/unit/PA"
+    },
+    {
+        "externalId": "pressure:kilogm_f-per-m2",
+        "name": "kgf/m\u00b2",
+        "longName": "Kilogram Force Per Square Metre",
+        "aliasNames": [
+            "kgf/m\u00b2",
+            "Kilogram Force Per Square Metre"
+        ],
+        "quantity": "Pressure",
+        "conversion": {
+            "multiplier": 9.80665,
+            "offset": 0.0
+        },
+        "source": "qudt.org",
+        "sourceReference": "http://qudt.org/vocab/unit/KiloGM_F-PER-M2"
     }
 ]
