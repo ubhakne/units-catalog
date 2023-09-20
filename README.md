@@ -66,6 +66,10 @@ To ensure the integrity of the catalog, the following tests are conducted:
 5. **Consistent References**: All quantity references in `unitSystems.json` must exist in `units.json`.
 6. **Unique aliases**: All pairs of (`alias` and `quantity`) must be unique, for all **aliases** in `aliasNames`.
 
+## Attribution
+Some of the units are sourced from QUDT.org, which is licensed under the [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).
+These are marked with the `qudt.org` source.
+
 ## Contribution
 
 To maintain the consistency and quality of the unit catalog, please ensure any contributions adhere to the established structure and guidelines. Before submitting any additions or modifications, ensure that all tests pass.
