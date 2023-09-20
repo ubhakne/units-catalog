@@ -1022,14 +1022,14 @@
         "sourceReference": "http://qudt.org/vocab/unit/BBL_US"
     },
     {
-        "externalId": "percent:percent",
+        "externalId": "fraction:percent",
         "name": "%",
         "longName": "Percent",
         "aliasNames": [
             "%",
             "Percent"
         ],
-        "quantity": "Percent",
+        "quantity": "Fraction",
         "conversion": {
             "multiplier": 1.0,
             "offset": 0.0
@@ -1038,13 +1038,13 @@
         "sourceReference": null
     },
     {
-        "externalId": "percent:fraction",
+        "externalId": "fraction:fraction",
         "name": "fraction",
         "longName": "Fraction",
         "aliasNames": [
             "fraction"
         ],
-        "quantity": "Percent",
+        "quantity": "Fraction",
         "conversion": {
             "multiplier": 0.01,
             "offset": 0.0

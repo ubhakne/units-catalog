@@ -19,8 +19,8 @@
                 "unitExternalId": "volume:m3"
             },
             {
-                "name": "Percent",
-                "unitExternalId": "percent:percent"
+                "name": "Fraction",
+                "unitExternalId": "fraction:percent"
             },
             {
                 "name": "Mass",
