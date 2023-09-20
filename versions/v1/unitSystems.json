@@ -9,6 +9,26 @@
             {
                 "name": "Temperature Gradient",
                 "unitExternalId": "temperature_gradient:k-per-m"
+            },
+            {
+                "name": "Energy",
+                "unitExternalId": "energy:j"
+            },
+            {
+                "name": "Volume",
+                "unitExternalId": "volume:m3"
+            },
+            {
+                "name": "Fraction",
+                "unitExternalId": "fraction:percent"
+            },
+            {
+                "name": "Mass",
+                "unitExternalId": "mass:kilogm"
+            },
+            {
+                "name": "Pressure",
+                "unitExternalId": "pressure:pa"
             }
         ]
     },
@@ -18,6 +38,22 @@
             {
                 "name": "Temperature",
                 "unitExternalId": "temperature:k"
+            },
+            {
+                "name": "Energy",
+                "unitExternalId": "energy:j"
+            },
+            {
+                "name": "Volume",
+                "unitExternalId": "volume:m3"
+            },
+            {
+                "name": "Mass",
+                "unitExternalId": "mass:kilogm"
+            },
+            {
+                "name": "Pressure",
+                "unitExternalId": "pressure:pa"
             }
         ]
     },
@@ -27,6 +63,22 @@
             {
                 "name": "Temperature",
                 "unitExternalId": "temperature:deg_c"
+            },
+            {
+                "name": "Energy",
+                "unitExternalId": "energy:j"
+            },
+            {
+                "name": "Volume",
+                "unitExternalId": "volume:m3"
+            },
+            {
+                "name": "Mass",
+                "unitExternalId": "mass:kilogm"
+            },
+            {
+                "name": "Pressure",
+                "unitExternalId": "pressure:bar"
             }
         ]
     },
@@ -36,6 +88,22 @@
             {
                 "name": "Temperature",
                 "unitExternalId": "temperature:deg_f"
+            },
+            {
+                "name": "Energy",
+                "unitExternalId": "energy:btu_th"
+            },
+            {
+                "name": "Volume",
+                "unitExternalId": "volume:ft3"
+            },
+            {
+                "name": "Mass",
+                "unitExternalId": "mass:lb"
+            },
+            {
+                "name": "Pressure",
+                "unitExternalId": "pressure:psi"
             }
         ]
     }
