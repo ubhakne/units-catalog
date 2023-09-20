@@ -1249,7 +1249,6 @@
         "name": "t",
         "longName": "Tonne",
         "aliasNames": [
-            "t",
             "Tonne"
         ],
         "quantity": "Mass",
