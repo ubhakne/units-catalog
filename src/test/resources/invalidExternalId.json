@@ -44,8 +44,7 @@
       "deg.C:",
       "DEG. C",
       "degrees C",
-      "degreesC",
-      "degrees"
+      "degreesC"
     ],
     "quantity": "Temperature",
     "conversion": {
@@ -77,8 +76,7 @@
       "DegF",
       "DEGF",
       "deg f",
-      "deg.f",
-      "degrees"
+      "deg.f"
     ],
     "quantity": "Temperature",
     "conversion": {
@@ -164,7 +162,7 @@
     "symbol": "°R"
   },
   {
-    "externalId": "temperature_gradient:k-per-m",
+    "externalId": "temperaturegradient:k-per-m",
     "name": "K-PER-M",
     "longName": "Kelvins per metre",
     "aliasNames": [
