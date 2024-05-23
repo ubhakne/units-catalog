@@ -16,3 +16,37 @@ jobs:
         cache: "maven"
     - name: Verify with Maven
       run: mvn --update-snapshots --batch-mode verify
+
+  get-duplicates:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout current branch
+      uses: actions/checkout@v4
+      with:
+        ref: ${{ github.head_ref }}
+
+    - name: Run duplicate check test on current branch
+      run: |
+        mvn test -Dtest=DuplicatedUnitsTest#getDuplicateConversions
+        mkdir -p output
+        cp target/surefire-reports/DuplicatedUnitsTest-output.txt output/current_branch.txt
+
+    - name: Upload current branch test results
+      uses: actions/upload-artifact@v4
+      with:
+        name: current-branch-duplicates
+        path: output/current_branch.txt
+
+    - name: Add Comment to Pull Request
+      uses: actions/github-script@v6
+      with:
+        script: |
+          const fs = require('fs');
+          const duplicateContent = fs.readFileSync('output/current_branch.txt', 'utf8');
+
+          github.rest.issues.createComment({
+            issue_number: context.issue.number,
+            owner: context.repo.owner,
+            repo: context.repo.repo,
+            body: duplicateContent
+          })
