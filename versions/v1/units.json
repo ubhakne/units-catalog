@@ -10441,5 +10441,21 @@
     },
     "source": "qudt.org",
     "sourceReference": "https://qudt.org/vocab/unit/L-PER-DAY"
+  },
+  {
+    "externalId": "unknown:unknown",
+    "name": "Unknown",
+    "quantity": "Unknown",
+    "longName": "Unknown unit",
+    "aliasNames": [
+      "Unknown"
+    ],
+    "symbol": "",
+    "conversion": {
+      "multiplier": 1.0,
+      "offset": 0.0
+    },
+    "source": null,
+    "sourceReference": null
   }
 ]

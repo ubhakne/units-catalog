@@ -173,6 +173,10 @@
       {
         "name": "Angle Per Length",
         "unitExternalId": "angle_per_length:rad-per-m"
+      },
+      {
+        "name": "Unknown",
+        "unitExternalId": "unknown:unknown"
       }
     ]
   },
