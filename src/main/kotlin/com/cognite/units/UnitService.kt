@@ -21,7 +21,6 @@ import com.fasterxml.jackson.module.kotlin.readValue
 import java.net.URI
 import java.net.URL
 import java.util.concurrent.CompletableFuture
-import kotlin.collections.*
 import kotlin.math.abs
 import kotlin.math.ceil
 import kotlin.math.log10
@@ -29,12 +28,11 @@ import kotlin.math.pow
 import kotlin.math.roundToLong
 
 class UnitService(
-    private val getUnitsCallback: ((String) -> CompletableFuture<String>)? = null,
-    private val getUnitSystemsCallback: ((String) -> CompletableFuture<String>)? = null,
     units: String? = null,
-    systems: String? = null
+    systems: String? = null,
+    private val getUnitSystemsCallback: ((String) -> CompletableFuture<String>)? = null,
+    private val getUnitsCallback: ((String) -> CompletableFuture<String>)? = null,
 ) {
-
     constructor(unitsPath: URL, systemPath: URL) : this(units = unitsPath.readText(), systems = systemPath.readText())
 
     companion object {
@@ -52,7 +50,8 @@ class UnitService(
     private val unitsByExternalId = mutableMapOf<String, MutableMap<String, TypedUnit>>()
     private val unitsByQuantity = mutableMapOf<String, MutableMap<String, ArrayList<TypedUnit>>>()
     private val unitsByQuantityAndAlias = mutableMapOf<String, MutableMap<String, LinkedHashMap<String, TypedUnit>>>()
-    private val defaultUnitByQuantityAndSystem = mutableMapOf<String, MutableMap<String, MutableMap<String, TypedUnit>>>()
+    private val defaultUnitByQuantityAndSystem =
+        mutableMapOf<String, MutableMap<String, MutableMap<String, TypedUnit>>>()
 
     init {
         if (units != null && systems != null) {
@@ -110,7 +109,7 @@ class UnitService(
             ?: CompletableFuture.completedFuture(null)
     }
 
-    private fun loadUnits(units: String, projectName: String) {
+    private fun loadUnits(units: String, projectName: String = GLOBAL_PROJECT) {
         val mapper: ObjectMapper = jacksonObjectMapper()
         // 1. Syntax Check: Every unit item in `units.json` must have the specified keys
         val listOfUnits: List<TypedUnit> = mapper.readValue(units)
@@ -152,7 +151,7 @@ class UnitService(
         }
     }
 
-    private fun loadSystem(systems: String, projectName: String) {
+    private fun loadSystem(systems: String, projectName: String = GLOBAL_PROJECT) {
         val mapper: ObjectMapper = jacksonObjectMapper()
         val listOfSystems: List<UnitSystem> = mapper.readValue(systems)
 
@@ -179,21 +178,21 @@ class UnitService(
         }
     }
 
-    fun getUnits(projectName: String): CompletableFuture<List<TypedUnit>> {
+    fun getUnits(projectName: String = GLOBAL_PROJECT): CompletableFuture<List<TypedUnit>> {
         return getUnitsCallback?.invoke(projectName)?.thenApply {
             loadUnits(it, projectName)
             unitsByExternalId[projectName]!!.values.toList()
         } ?: CompletableFuture.completedFuture(unitsByExternalId[GLOBAL_PROJECT]!!.values.toList())
     }
 
-    fun getUnitSystems(projectName: String): CompletableFuture<Set<String>> {
+    fun getUnitSystems(projectName: String = GLOBAL_PROJECT): CompletableFuture<Set<String>> {
         return getUnitSystemsCallback?.invoke(projectName)?.thenApply {
             loadSystem(it, projectName)
             defaultUnitByQuantityAndSystem[projectName]!!.keys
         } ?: CompletableFuture.completedFuture(defaultUnitByQuantityAndSystem[GLOBAL_PROJECT]!!.keys)
     }
 
-    fun getUnitByExternalId(externalId: String, projectName: String): CompletableFuture<TypedUnit> {
+    fun getUnitByExternalId(externalId: String, projectName: String = GLOBAL_PROJECT): CompletableFuture<TypedUnit> {
         val defaultUnit = unitsByExternalId[GLOBAL_PROJECT]?.get(externalId)
         if (defaultUnit != null) {
             return CompletableFuture.completedFuture(defaultUnit)
@@ -204,7 +203,7 @@ class UnitService(
         }
     }
 
-    fun getUnitsByQuantity(quantity: String, projectName: String): CompletableFuture<List<TypedUnit>> {
+    fun getUnitsByQuantity(quantity: String, projectName: String = GLOBAL_PROJECT): CompletableFuture<List<TypedUnit>> {
         val defaultUnits = unitsByQuantity[GLOBAL_PROJECT]?.get(quantity)
         if (defaultUnits != null) {
             return CompletableFuture.completedFuture(defaultUnits)
@@ -215,7 +214,11 @@ class UnitService(
         }
     }
 
-    fun getUnitByQuantityAndAlias(quantity: String, alias: String, projectName: String): CompletableFuture<TypedUnit> {
+    fun getUnitByQuantityAndAlias(
+        quantity: String,
+        alias: String,
+        projectName: String = GLOBAL_PROJECT,
+    ): CompletableFuture<TypedUnit> {
         val defaultQuantityTable = unitsByQuantityAndAlias[GLOBAL_PROJECT]?.get(quantity)
         if (defaultQuantityTable != null && defaultQuantityTable.containsKey(alias)) {
             return CompletableFuture.completedFuture(defaultQuantityTable[alias]!!)
@@ -228,7 +231,11 @@ class UnitService(
         }
     }
 
-    fun getUnitBySystem(sourceUnit: TypedUnit, targetSystem: String, projectName: String): CompletableFuture<TypedUnit> {
+    fun getUnitBySystem(
+        sourceUnit: TypedUnit,
+        targetSystem: String,
+        projectName: String = GLOBAL_PROJECT,
+    ): CompletableFuture<TypedUnit> {
         val defaultSystem = defaultUnitByQuantityAndSystem[GLOBAL_PROJECT]?.get(targetSystem)?.get(sourceUnit.quantity)
         if (defaultSystem != null) {
             return CompletableFuture.completedFuture(defaultSystem)
@@ -239,7 +246,7 @@ class UnitService(
         }
     }
 
-    fun getUnitsByAlias(alias: String, projectName: String): CompletableFuture<ArrayList<TypedUnit>> {
+    fun getUnitsByAlias(alias: String, projectName: String = GLOBAL_PROJECT): CompletableFuture<ArrayList<TypedUnit>> {
         val defaultUnits = unitsByAlias[GLOBAL_PROJECT]?.get(alias)
         if (defaultUnits != null) {
             return CompletableFuture.completedFuture(defaultUnits)
@@ -307,7 +314,7 @@ class UnitService(
         return shifted / magnitude
     }
 
-    fun isValidUnit(unitExternalId: String, projectName: String): CompletableFuture<Boolean> {
+    fun isValidUnit(unitExternalId: String, projectName: String = GLOBAL_PROJECT): CompletableFuture<Boolean> {
         val defaultValid = unitsByExternalId[GLOBAL_PROJECT]?.containsKey(unitExternalId) ?: false
         if (defaultValid) {
             return CompletableFuture.completedFuture(true)
