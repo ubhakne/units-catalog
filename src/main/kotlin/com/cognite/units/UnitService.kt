@@ -18,7 +18,6 @@ package com.cognite.units
 import com.fasterxml.jackson.databind.ObjectMapper
 import com.fasterxml.jackson.module.kotlin.jacksonObjectMapper
 import com.fasterxml.jackson.module.kotlin.readValue
-import java.net.URI
 import java.net.URL
 import java.util.concurrent.CompletableFuture
 import kotlin.math.abs
@@ -60,38 +59,6 @@ class UnitService(
         }
     }
 
-    private fun sanitizeIdentifier(identifier: String): String {
-        // remove all special characters except - and _
-        return identifier.lowercase().replace(Regex("[^a-z0-9_-]"), "_")
-    }
-
-    private fun generateExpectedExternalId(unit: TypedUnit): String {
-        val sanitizedQuantity = sanitizeIdentifier(unit.quantity)
-        val sanitizedName = sanitizeIdentifier(unit.name)
-        return "$sanitizedQuantity:$sanitizedName"
-    }
-
-    private fun generatedExpectedSourceReference(unit: TypedUnit): String? {
-        if (unit.source == "qudt.org") {
-            return "https://qudt.org/vocab/unit/${unit.name}"
-        }
-
-        val errorMessage = "Invalid sourceReference ${unit.sourceReference} for unit ${unit.name} (${unit.quantity})"
-
-        // check reference is a valid http(s) url if present
-        if (unit.sourceReference != null) {
-            try {
-                val url = URI.create(unit.sourceReference).toURL()
-                if (url.protocol != "http" && url.protocol != "https") {
-                    throw IllegalArgumentException(errorMessage)
-                }
-            } catch (e: Exception) {
-                throw IllegalArgumentException(errorMessage, e)
-            }
-        }
-        return unit.sourceReference
-    }
-
     // For a given quantity, there should not be duplicate units
     // one way to check this is to verify that the conversion values are unique
     // Returns: A list of duplicate units in a map by conversion, by quantity
@@ -121,18 +88,7 @@ class UnitService(
             }
             unitsByExternalId.getOrPut(projectName) { mutableMapOf() }[it.externalId] = it
 
-            // 7. ExternalId Format: All unit `externalIds` must follow the pattern `{quantity}:{unit}`, where both
-            // `quantity` and `unit` are in snake_case.
-            assert(it.externalId == generateExpectedExternalId(it)) {
-                "Invalid externalId ${it.externalId} for unit ${it.name} (${it.quantity})"
-            }
-
-            // if source is qudt.org, reference should be in the format https://qudt.org/vocab/unit/{unit.name}
-            if (it.source == "qudt.org") {
-                assert(it.sourceReference == generatedExpectedSourceReference(it)) {
-                    "Invalid sourceReference ${it.sourceReference} for unit ${it.name} (${it.quantity})"
-                }
-            }
+            UnitUtils.validateUnit(it)
 
             unitsByQuantity.getOrPut(projectName) { mutableMapOf() }
                 .getOrPut(it.quantity) { ArrayList() }.add(it)
